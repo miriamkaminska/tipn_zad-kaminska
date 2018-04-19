@@ -1,0 +1,26 @@
+Zad 4-1
+
+1.
+W zbiorze jest 11 zmiennych.
+
+2.
+W zbiorze są 234 obserwacje.
+
+3.
+Engine displacement jest to objętość (pojemność) skokowa cylindra – różnica pomiędzy maksymalną a minimalną objętością cylindra. (wcale tego nie skopiowałam)
+Natomiast miles per gallon (mpg) jest to ilość mil jakie można przejechać na galonie paliwa.
+
+4. 
+Manufacturer - Odnosi się do marki, która wyprodukowała dane auto.
+model - Jest to model auta.
+displ - engine displacement w litrach (wytłumaczone powyżej)
+year - Jest to rok produkcji danego auta.
+cyl - Jest to ilość cylindrów.
+trans - Infromuje nas o układzie napędowym silnika.
+drv - Informuje nas jaki napęd ma auto, czy na 4 koła, czy może tylko na przednie itp.
+cty - Informacja na temat ilości wyjeżdżonych mil w mieście na jeden galon.
+hwy - Informacja na temat  ilości wyjeżdżonych mil na autostradzie na jeden galon.
+fl - Jest to typ paliwa na jakim to auto jeździ.
+class - Informuje nas o jakim rodzaju/typie auta jest mowa.
+
+
