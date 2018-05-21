@@ -1,0 +1,96 @@
+---
+title: "Bezsens również ma sens CZASAMI"
+author: "Miriam Kamińska"
+date: "21 05 2018"
+output: 
+ html_document:
+    theme: readable
+    highlight: pygments
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+# Tajemniczy nagłówek
+
+Na wstępie chciałabym powiedzieć coś bardzo ważnego, a mianowicie: 
+*Wcale nie lubię Marvela.* Dla niektórych może to być szok (w sumie to nie wiem dla kogo XD),
+a dla innych nie (czyli dla wszystkich). Tzn. nie, że jakoś bardzo nie lubię w sumie, ale jest mi obojętny po prostu.
+
+Oprócz takich rewelacji, chciałabym jeszcze dodać, że nie umiem wymyślić nic sensownego, więc proszę nie szukać tutaj niczego co mogłoby mieć jakikolwiek ciąg przyczynowo-skutkowy.
+
+Jeżeli jest to wymóg, to cóż: ~~do zobaczenia za rok!~~
+
+## `Faktycza treść`
+
+No i tutaj zaczyna się pierwszy kłopot, gdyż jak już wspomniałam na początku ta "faktyczna treść" niestety nie istnieje, i raczej już nigdy nie zaistnieje. Wobec tego przedstawię teraz listę rzeczy, które muszę zrobić w niedalekiej przyszłości:
+
+- jedna rzecz
+- druga rzecz
+- trzecia rzecz
+- <https://www.netflix.com>
+- spanie
+
+Jak można zauważyć, jest ich bardzo dużo, co niezwykle ogranicza moją *kreatywność* i sprawia, że nie mogę w satysfakcjonujący sposób wypełnić tego zadania. **Przepraszam.**
+
+Kolejna lista jakiej możemy uświadczyć w tej *pracy* to lista możliwych konsekwencji braku konkretnego tematu dla wykonywanego przeze mnie obecnie zadania:
+
+1. Zaliczenie bez żadnych obiekcji ze strony prowadzącego (**polecam to rozwiązanie**)
+2. Ktoś się choć raz zaśmieje czytając te wypociny (**w sumie też polecam**)
+3. Nie zdam :((((( (**bardzo nie polecam**)
+
+&nbsp;
+
+Możemy też sobie zadać kilka pytań, które zawarte zostaną w tabeli (wraz z odpowiedziami) ze względu na istniejące wymogi:
+
+&nbsp;
+
+| Pytanie       | Odpowiedź  |
+|:-------------:|:-------------:|
+| Dlaczego nie wymyśliłam normalnego tematu?  |  W sumie to nie wiem                                       | 
+| Czy ten tekst jest chociaż odrobinę zabawny?| Pewnie nie, choć to zależy od poczucia humoru czytającego  | 
+| Czy czujesz się niewyspany albo senny?      | Bo ja bardzo                                               |
+
+&nbsp;
+
+W następnej kolejności przechodzimy to wykresików i innych takich, dlatego przed Państwem:
+
+&nbsp;
+
+#### Wykres, który mimo, iż oryginalnie dotyczy kompletnie czego innego to świetnie pokazuje jak spada moje zaangażowanie wraz z upływem czasu (dobry żart czy średniawka?)
+
+```{r}
+library(ggplot2)
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point()
+```
+
+&nbsp;
+
+#### Fajne (i średnie) furki, na które i tak nie będzie mnie stać po studiach:
+
+```{r}
+library(tidyverse)
+mpg
+```
+
+&nbsp;
+
+####  Kolejna tabela z *fajnymi rzeczami* (nie widać kodu, więc jest jeszcze fajniejsza):
+
+&nbsp;
+
+```{r, echo=FALSE}
+library(tidyverse)
+diamonds
+```
+
+&nbsp;
+
+Przydałoby się jeszcze jakieś miłe zakończenie, dlatego też chciałabym podziękować każdemu kto to przeczytał (niezależnie od tego czy zrobił to obligatoryjnie czy też hobbistycznie). 
+
+&nbsp;
+
+**Dziękuje i do widzenia.**
